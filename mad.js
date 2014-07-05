@@ -32,7 +32,7 @@ $(document).ready(function() {
 		}
 		//puts user answers into HTML
 		var showFinal = function() {
-			$('.prompt').html('<span class="fill">'+answers[0]+'</span> has defeated the demented <span class="fill">'+answers[1]+'</span>. With his/her mighty superpowers of <span class="fill">'+answers[2]+'</span>. <span class="fill">'+answers[0]+'</span> has saved the city of <span class="fill">'+answers[3]+'</span> and brought <span class="fill">'+answers[1]+'</span> to justice once and for all the end.');
+			$('.prompt').html('<span class="fill">'+answers[0]+'</span> has defeated the demented <span class="fill">'+answers[1]+'</span>. With his/her mighty superpowers of <span class="fill">'+answers[2]+'</span>. Our hero <span class="fill">'+answers[0]+'</span> has saved the city of <span class="fill">'+answers[3]+'</span> and brought <span class="fill">'+answers[1]+'</span> to justice once and for all the end.');
 			//and them hide the button
 			$('button').hide();
 		}
